@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    font-family: serif, 'Poppins';
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0c1022;
+
+}
+
+body .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: yellow;
+}
