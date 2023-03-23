@@ -74,7 +74,7 @@ body .header .logo {
     font-weight: 700;
     line-height: 1.2;
     opacity: 0;
-    animation: slideRIGHT .5s ease forwards;
+    animation: slideRight .5s ease forwards;
     animation-delay: .7s;
 }
 
@@ -173,7 +173,7 @@ body .header .logo {
 
 .home-sci a:nth-child(2){
     opacity: 0;
-    animation: slideRIGHT 1s ease forwards;
+    animation: slideRight 1s ease forwards;
     animation-delay: 2.1s;
 }
 
@@ -296,7 +296,7 @@ body .header .logo {
     }
 }
 
-@keyframes slideRIGHT {
+@keyframes slideRight {
     0% {
         opacity: 0;
         transform: translateX(-100px);
